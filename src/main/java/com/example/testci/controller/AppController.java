@@ -15,6 +15,6 @@ public class AppController {
     @GetMapping
     public String get() {
         userService.getUser();
-        return "Hello";
+        return "Hello!!!";
     }
 }
