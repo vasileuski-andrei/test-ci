@@ -17,7 +17,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest-latest
+    runs-on: windows-latest
     steps:
       - name: Clean project
         run: ./gradlew clean
